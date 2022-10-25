@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export resourceGroup="XXXXX"
+export location="XXXXX"
+export subscription="XXXXX"
+export azureSQLDatabaseUsername="XXXXX"
+export azureSQLDatabasePassword="XXXXX"
+export clientip=$(wget -qO- http://ipecho.net/plain | xargs echo)
+export azureSQLDatabaseServer="XXXXX"
+export azureSQLDatabaseDatabase="XXXXX"
